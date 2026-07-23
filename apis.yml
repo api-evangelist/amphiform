@@ -1,8 +1,23 @@
 aid: amphiform
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/amphiform.png
 name: Amphiform
-description: 'Amphiform is a company surfaced as a portfolio company of general-catalyst and added to
-  the API Evangelist network as a stub for enrichment. Sector: energy-infrastructure. This profile is
-  a lead awaiting the enrichment pipeline.'
+description: 'Amphiform is an energy technology company redefining the future of energy by developing
+  new materials and manufacturing processes that create clean, abundant, and dense energy sources.
+  Rather than scaling existing technologies, Amphiform engineers entirely new materials using precise
+  manufacturing tools to address energy demands for decarbonization, computing, and space exploration.
+  A General Catalyst portfolio company in the energy-infrastructure sector, it is pre-product and does
+  not currently publish any public API, developer documentation, or SDKs.'
 url: https://raw.githubusercontent.com/api-evangelist/amphiform/refs/heads/main/apis.yml
 x-type: company
 x-source: general-catalyst-portfolio
@@ -14,9 +29,25 @@ modified: '2026-07-17'
 tags:
 - Company
 - Energy Infrastructure
+- Energy
+- Clean Energy
+- Materials Science
+- Manufacturing
+- Deep Tech
+- Decarbonization
 apis: []
+common:
+- type: DomainSecurity
+  url: security/amphiform-domain-security.yml
+- type: Website
+  url: https://amphiform.com
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
